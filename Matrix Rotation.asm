@@ -1,10 +1,5 @@
 ######### Aaron Chen ##########
-######### aacchen ##########
-######### 113501782 ##########
 
-######## DO NOT ADD A DATA SECTION ##########
-######## DO NOT ADD A DATA SECTION ##########
-######## DO NOT ADD A DATA SECTION ##########
 
 .text
 .globl initialize
