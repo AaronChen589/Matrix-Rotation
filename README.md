@@ -1,9 +1,4 @@
-## Note
-The lines in the file have the following format:
-The first line indicates the no. of rows in a two-dimensional (2D) matrix. It must be an integer [1-10].
-The second line indicates the no. of columns in a 2D matrix. It must be an integer [1-10].
-The subsequent lines represent numbers in a matrix. The numbers are positive integers separated by a whitespace.
-Each line represents a row in the matrix. Each line ends with a terminating character/s. On Windows, line endings are terminated with a combination of carriage return (\r) and newline (\n) characters, also referred to as CR/LF.
+
 
 ## Part 1 -- Initialize Data Structure
 This function takes two arguments -- a string filename and the address of a data structure buffer. The function will read the content in filename, parse it and store the contents in buffer. The contents in buffer should be in the format defined for the data structure above. So, the first two elements should be the no. of rows and columns of a matrix and the remaining elements should be the integers of the matrix. One way to do this is to read the file one character at a time, and store them in the buffer as integers in appropriate positions.
@@ -30,10 +25,15 @@ This function takes two arguments -- the address of the buffer data structure an
 ## Part 4 -- Mirroring
 This function takes two arguments -- the address of the buffer data structure and a string filename. It creates a mirror of the matrix in buffer writes it to filename.
 
-## Part 7 -- Duplicates
+## Part 5 -- Duplicates
 This function takes the data structure buffer as an argument. Assume that the matrix in buffer contains only binary values 0 and 1. The function checks to see if the matrix has any duplicate rows. If a duplicate row exists in the matrix then the function returns 1 in $v0 and the index (starting at 1) of the first duplicate row in $v1. If the matrix has no duplicate rows then the function returns -1 in $v0 and 0 in $v1
 
-
+## Note For Formatting Text File for Part 2
+The lines in the file have the following format:
+The first line indicates the no. of rows in a two-dimensional (2D) matrix. It must be an integer [1-10].
+The second line indicates the no. of columns in a 2D matrix. It must be an integer [1-10].
+The subsequent lines represent numbers in a matrix. The numbers are positive integers separated by a whitespace.
+Each line represents a row in the matrix. Each line ends with a terminating character/s. On Windows, line endings are terminated with a combination of carriage return (\r) and newline (\n) characters, also referred to as CR/LF.
 
 
 
